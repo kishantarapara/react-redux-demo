@@ -1,4 +1,4 @@
-import { AnyAction, Dispatch } from "redux";
+import { AnyAction } from "redux";
 import {
   FETCH_USER_REQUEST,
   FETCH_USER_SUCCESS,

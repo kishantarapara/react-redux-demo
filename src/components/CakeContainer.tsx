@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 
-import { StoreType, buyCake } from "../redux";
+import { buyCake } from "../redux";
 import { Dispatch } from "redux";
 import { connect } from "react-redux";
+import { StoreType } from "../redux/store";
 
 interface CakeContainerProps {
   noOfCakes: number;

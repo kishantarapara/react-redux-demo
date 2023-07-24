@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { StoreType } from "../redux";
+import { StoreType } from "../redux/store";
 import { Dispatch } from "redux";
 import { buyIceCream } from "../redux/IceCream/iceCreamAction";
 import { connect } from "react-redux";

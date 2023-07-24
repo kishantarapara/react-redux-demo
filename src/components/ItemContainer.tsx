@@ -1,7 +1,9 @@
 import React, { useState } from "react";
-import { StoreType, buyCake, buyIceCream } from "../redux";
+import { buyCake, buyIceCream } from "../redux";
 import { Dispatch } from "redux";
 import { connect } from "react-redux";
+
+import { StoreType } from "../redux/store";
 
 interface ItemContainerOwnProps {
   cake?: boolean;

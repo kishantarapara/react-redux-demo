@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { UserStoreType } from "../redux/User/userReducer";
-import { StoreType } from "../redux";
+import { StoreType } from "../redux/store";
 import { fetchUsers } from "../redux/User/userAction";
 import { ThunkDispatch } from "redux-thunk";
 import { connect } from "react-redux";
